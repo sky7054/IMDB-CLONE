@@ -1,12 +1,12 @@
 /* CSS Variables */
 :root {
-    --default-text-color: #fff;
+    --default-text-color:#000;
     --logo-color: rgb(253, 206, 35);
-    --page-background-color: #2c3333;
-    --form-color: rgb(109, 114, 121);
+    --page-background-color: #fff;
+    --form-color: rgb(237, 242, 248);
     --search-icon-color: #3d3e43;
     --card-color: rgb(18, 21, 21);
-    --default-heart-color: rgb(207, 194, 194);
+    --default-heart-color: rgb(245, 245,245);
     --heart-red-color: #ec0638;
     --favourite-section-color: rgb(28, 27, 27);
     --fav-movie-card-color: rgb(12, 11, 11);
@@ -65,12 +65,12 @@
     height: 2.9rem;
     width: 4.5rem;
     border: transparent;
-    background-color: var(--logo-color);
+    background-color: #fff;
   }
   
   .search-icon {
     font-size: 25px;
-    color: var(--search-icon-color);
+    color: black;
   }
   
   #show-favourites {

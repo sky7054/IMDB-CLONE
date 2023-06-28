@@ -31,21 +31,21 @@
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-dark bg-dark px-2">
+    <nav class="navbar navbar-dark bg-gray px-2">
       <div class="container-fluid">
         <a class="navbar-brand" href="/index.html">
           <img
-            src="images/logo.png"
+            src="images/favicon.png"
             alt=""
             width="45"
             height="45"
             class="d-inline-block align-text-top"
           />
-          <span class="pt-4 site-name"> Movie Carnival </span>
+          <span class="pt-4 site-name"> Movies App </span>
         </a>
         <a href="index.html">
           <button type="button" class="btn btn-warning">
-            <i class="fa-solid fa-angle-left"></i> Go Back
+            Home
           </button>
         </a>
       </div>
@@ -56,7 +56,7 @@
       <!-- Title and rating container -->
       <div
         class="d-flex justify-content-between align-content-center mx-auto"
-        style="max-width: 70vw"
+        style="max-width: 100vw"
       >
         <div>
           <h1 id="title">Movie name</h1>
@@ -75,7 +75,7 @@
       <!-- Movie card -->
       <div
         class="card mb-3 mx-auto animate__animated animate__backInDown"
-        style="max-width: 70vw"
+        style="max-width: 80vw"
       >
         <div class="row g-0">
           <div
@@ -84,7 +84,7 @@
             <img
               id="poster"
               class="img-fluid rounded-start"
-              style="max-height: 400px"
+              style="max-height: 300px"
             />
           </div>
           <div class="col-md-8 my-2">
@@ -110,6 +110,6 @@
       </div>
     </main>
 
-    <script src="./js/movieInfo.js"></script>
+    <script src="./script/moviesInfo.js"></script>
   </body>
 </html>
