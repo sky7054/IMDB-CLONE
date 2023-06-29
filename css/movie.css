@@ -1,15 +1,15 @@
 /* CSS Variables */
 :root {
-    --default-text-color: #fff;
+    --default-text-color: #312e2e;
     --logo-color: rgb(253, 206, 35);
     --page-background-color: #2c3333;
     --card-text-color: rgb(232, 233, 243);
-    --info-color: #7dabef;
+    --info-color: #020407;
   }
   
   body {
-    background-color: var(--page-background-color);
-    color: var(--default-text-color);
+    background-color:#fff;
+    color: #000;
   }
   
   /* NAVBAR */
@@ -36,6 +36,7 @@
       0px 8px 10px -5px hsla(0, 0%, 0%, 0.2);
   }
   
+  
   .card-text {
     text-align: justify;
     font-size: 1.1rem;
@@ -46,13 +47,13 @@
   .info-type {
     font-size: 1.1rem;
     font-weight: 500;
-    color: var(--logo-color);
+    color: #fff;
   }
   
   .information {
     font-weight: 500;
     font-size: 0.9em;
-    color: var(--info-color);
+    color: #fff;
   }
   
   

@@ -6,10 +6,10 @@
     --form-color: rgb(237, 242, 248);
     --search-icon-color: #3d3e43;
     --card-color: rgb(18, 21, 21);
-    --default-heart-color: rgb(245, 245,245);
+    --default-heart-color: rgb(207, 194, 194);
     --heart-red-color: #ec0638;
     --favourite-section-color: rgb(28, 27, 27);
-    --fav-movie-card-color: rgb(12, 11, 11);
+    --fav-movie-card-color:#fff;
     --delete-button-color: #eb6582;
   }
   
@@ -129,7 +129,7 @@
   
   .card-title a {
     text-decoration: none;
-    color: var(--default-text-color);
+    color: #fff;
   }
   
   .card-title a:hover {
@@ -141,6 +141,7 @@
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
+    color: #fff;
   }
   
   .fa-star {
@@ -152,7 +153,7 @@
   }
   
   #rating {
-    color: var(--default-text-color);
+    color: #fff;
     font-size: small;
     font-weight: 600;
     letter-spacing: 0.1em;
